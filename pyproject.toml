@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slm-dmd-linux"
+version = "0.1.0"
+description = "Drive spatial light modulators and DMDs as displays on Linux, X11 and Wayland: find the output by its EDID, show a pattern and know which vsync it went up on"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["SLM", "spatial light modulator", "DMD", "digital micromirror", "hologram", "wavefront shaping",
+            "HOLOEYE", "PLUTO", "DLP", "Wayland", "second monitor", "fullscreen", "EDID"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research",
+]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "glfw>=2.6", "PyOpenGL>=3.1.6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
