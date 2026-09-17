@@ -70,6 +70,10 @@ slm.close();
 * Under X11 the pattern looks wrong in intensity: `xrandr --output DP-6 --gamma 1:1:1 --brightness 1`, and turn off night light.
 * NVIDIA, after a driver update: reboot before the window can be created.
 
+## Disclaimer
+
+Not affiliated with or endorsed by HOLOEYE Photonics or Texas Instruments. "HOLOEYE", "PLUTO" and "DLP" are trademarks of their owners, used here only to say which devices this was tested with. The devices are driven as ordinary displays; no vendor software is used or included.
+
 ## License
 
 MIT. Copyright (c) 2026 Wits OC Lab. See LICENSE.
