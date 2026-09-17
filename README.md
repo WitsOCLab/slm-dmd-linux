@@ -20,7 +20,7 @@ Verified with a HOLOEYE PLUTO-2.1 (phase SLM) and a Texas Instruments DLP4710 EV
 ## Install
 
 ```
-pip install slm-dmd-linux
+pip install slm-dmd-linux                # or, before the PyPI release: pip install git+https://github.com/WitsOCLab/slm-dmd-linux
 slmscreen list                          # the connected outputs and their EDID names
 slmscreen show "HE PLUTO-2.1" blazed period_px=16 angle_deg=45
 ```
